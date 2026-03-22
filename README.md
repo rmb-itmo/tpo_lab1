@@ -14,9 +14,8 @@
 ### 1.1. Описание реализации
 
 Функция `ArcSinSeries.compute(double x)` вычисляет значение арксинуса через ряд Тейлора:
-$$
-\arcsin(x) = x + \frac{1}{2} \cdot \frac{x^3}{3} + \frac{1 \cdot 3}{2 \cdot 4} \cdot \frac{x^5}{5} + \frac{1 \cdot 3 \cdot 5}{2 \cdot 4 \cdot 6} \cdot \frac{x^7}{7} + \dots
-$$
+
+$$ \arcsin(x) = x + \frac{1}{2} \cdot \frac{x^3}{3} + \frac{1 \cdot 3}{2 \cdot 4} \cdot \frac{x^5}{5} + \frac{1 \cdot 3 \cdot 5}{2 \cdot 4 \cdot 6} \cdot \frac{x^7}{7} + \dots $$
 
 
 **Особенности реализации:**
